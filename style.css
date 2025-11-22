@@ -1,1 +1,92 @@
+/* style.css */
 
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Nav styling */
+nav {
+    display: inline-block;
+    width: 80%;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav img {
+    width: 10%; /* only images inside nav */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Comment out old li styling
+li {
+    display: inline-block;
+    width: 150px;
+}
+*/
+
+/* Main styling */
+main {
+    background-color: #f9f9f9;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* Skip link styling */
+a.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+
+a.skip-link:focus {
+    top: 0;
+}
+
+/* Grid styling */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%; /* only images in grid */
+}
+
+/* Flex styling */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Footer styling */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
